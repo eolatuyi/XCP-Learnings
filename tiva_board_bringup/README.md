@@ -28,17 +28,17 @@
 - [ ] integrate third party unit/regression testing framework for continuous integration
 - [ ] performance evaluation of XCP DAQ monitoring (fastest logging rates)
 - [ ] Cortex M4 Ethernet driver integration with XCP server
-- [ ] CAN Tranceiver device driver (transition from loopback to actual standalone XCP server)
+- [ ] CAN Tranceiver device driver (transition from loopback to actual standalone XCP on CAN server)
 - [ ] AUTOSAR pointered method integration
 - [ ] Performance evaluation of FreeRTOS application hard timing requirement
 
 ## Folders/Files
 ### [Configs Folder](./Configs)
-- has xcp application code to define required application entity exercising xcp
+- Has xcp application code to define required application entity exercising xcp
 - Configured CAN driver as transport layer for XCP server
-- has test utilities definition to exercise unit testing of integration efforts
-- unit testing is currently based on UART based monitoring and ccs debugger based test triggers
-- has test cases for DAQ included
+- Has test utilities definition to exercise unit testing of integration efforts
+- Unit testing is currently based on UART based monitoring and ccs debugger based test triggers
+- Has test cases for DAQ:
 	- 3 DAQ list
 	- 3 ODT Entry per DAQ list
 	- 1st ODT has 2 byte timestamp and 1 ODT Entry 
