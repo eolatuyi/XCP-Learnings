@@ -10,7 +10,7 @@
 - EK-TM4C123GXL ARM  Cortex-M4F Based MCU TM4c123G LaunchPad Evaluation Kit (TIVA C Board)
 - Connect board as a USB device to ensure device is installed in your PC (Confirm from device manager you see one of the COM port with name "Stellaris Virtual Serial Port")
 ### Build and Testing Instruction
-1. Import [tiva_board_bringup directory]([/) as a CCS project
+1. Import [tiva_board_bringup directory](/tiva_board_bringup) as a CCS project
 2. Build imported project in CCS
 3. Connect TIVA board as a USB device (ensure dip switch is set as debug)
 4. Launch Debug on CCS
@@ -33,7 +33,7 @@
 - [ ] Performance evaluation of FreeRTOS application hard timing requirement
 
 ## Folders/Files
-### [Configs Folder](/Configs)
+### [Configs Folder](/tiva_board_bringup/Configs)
 - Has xcp application code to define required application entity exercising xcp
 - Configured CAN driver as transport layer for XCP server
 - Has test utilities definition to exercise unit testing of integration efforts
@@ -46,14 +46,14 @@
 	- 2nd ODT has 2 ODT Entry
 		- 4 byte data with values 0xffffffff, 0xeeeeeeee, 0xdddddddd for each DAQ list respectively
 		- 2 byte data with values 0xcccc, 0xbbbb, 0xaaaa for each DAQ list respectively
-### [FreeRTOS Folder](/FreeRTOS)
+### [FreeRTOS Folder](/tiva_board_bringup/FreeRTOS)
 - Has stack used for RTOS port
-### Vector Folder
+### [Vector Folder](/tiva_board_bringup/Vector)
 - Has vector xcp application protocol stack
-### [TI Folder](/TI)
+### [TI Folder](/tiva_board_bringup/TI)
 - has TI lib for drivers 
-### [tm4c123gh6pm_startup_ccs.c File](/tm4c123gh6pm_startup_ccs.c)
+### [tm4c123gh6pm_startup_ccs.c File](/tiva_board_bringup/tm4c123gh6pm_startup_ccs.c)
 - Configured isr for FreeRTOS and drivers in tm4c123gh6pm_startup_ccs.c
-### [tiva_board_bringup.log File](/tiva_board_bringup.log)
+### [tiva_board_bringup.log File](/tiva_board_bringup/tiva_board_bringup.log)
 - Has uart output of lastest test log of XCP server app.
 
