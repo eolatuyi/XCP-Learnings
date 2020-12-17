@@ -23,14 +23,6 @@
 - Vector xcp server stack allows configuration of ODT whose size exceeds MAX_DTO for CAN- 
   scenario is when configured timestamp is >= 2byte. This leads to ASSERT failure during DAQ monitoring. 
   Does this mean vector expects application to have prevented such ODT config? I don't agree-- I think Vector stack should handle this.
-### Future work
-- [ ] Simplify Testing instruction
-- [ ] integrate third party unit/regression testing framework for continuous integration
-- [ ] performance evaluation of XCP DAQ monitoring (fastest logging rates)
-- [ ] Cortex M4 Ethernet driver integration with XCP server
-- [ ] CAN Tranceiver device driver (transition from loopback to actual standalone XCP on CAN server)
-- [ ] AUTOSAR pointered method integration
-- [ ] Performance evaluation of FreeRTOS application hard timing requirement
 
 ## Folders/Files
 ### [Configs Folder](/tiva_board_bringup/Configs)
