@@ -20,6 +20,7 @@
 
 ### Known Issues
 - Yet to test sending a request to server while DAQ transmission is running
+- Remove FreeRTOS files not relevant to realizing concept.
 
 ## Folders/Files
 ### [Configs Folder](/raspbian_bringup/Configs)
