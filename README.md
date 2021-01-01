@@ -18,7 +18,7 @@ An evaluation of XCP protocol while integrating 3rd party sw - vector xcp server
 
 ## Future work
 ### Improve Testability
-- [ ] Simplify bringup instructions
+- [ ] Simplify bringup instructions and Read-me in [/raspbian_bringup/README](/raspbian_bringup/README.md) and [/tiva_board_bringup/README](/tiva_board_bringup/README.md)
 - [ ] integrate third party unit/regression testing framework for continuous integration
 
 ### Platform extension
