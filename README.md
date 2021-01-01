@@ -10,7 +10,9 @@ An evaluation of XCP protocol while integrating 3rd party sw - vector xcp server
 ## Concepts
 - [Porting FreeRTOS to TIVA-C- Cortex M4-f Notes](/PortingFreeRTOStoTIVA-C-CortexM4-f.pdf)
 - [XCP Server App High Level Sketch](/XCPServerAppConcept.pdf)
+- Example of XCP on TCP Messages Raspberry Pi outputs when exercised
   ![Example of XCP on TCP Messages Raspberry Pi outputs when exercised](/XCPonTCPDAQDemoOutputSnip.gif)
+- Example of XCP on CAN Messages TIVA board outputs when exercised
   ![Example of XCP on CAN Messages TIVA board outputs when exercised](/XCPOnCANOutputSnip.png)
 
 
